@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nau web</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 36 36%22><text y=%2232%22 font-size=%2232%22>👽</text></svg>">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arnau Medes - Closer de ventas estratégico para negocios digitales. Reserva una llamada y escala tus resultados.">
+  <title>Arnau Medes | Closer de Ventas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>la meva primera pàgina web</h1>
-        <nav>
-            <ul>
-                <li><a href="#què">què?</a></li>
-                <li><a href="#per-què">per què?</a></li>
-                <li><a href="#projectes">projectes</a></li>
-                <li><a href="#contacte">contacte</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="bg-white text-gray-900 font-sans">
 
-    <section id="què">
-        <h2>què?</h2>
-        <p>que aquesta és la meva primera pàgina web</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Ayudo a negocios digitales a aumentar sus ventas con cierre estratégico y conexión humana.</h1>
+    <p class="text-lg md:text-xl text-gray-600 mb-8">Estrategia. Empatía. Conversión real.</p>
+    <div class="flex flex-col md:flex-row gap-4">
+      <a href="http://calendly.com/arnaumedes" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-2xl shadow hover:bg-blue-700 transition">Reserva una llamada</a>
+      <a href="https://wa.me/34674295086" target="_blank" class="border border-gray-800 text-gray-900 px-6 py-3 rounded-2xl hover:bg-gray-100 transition">Escríbeme por WhatsApp</a>
+    </div>
+  </section>
 
-    <section id="per-què">
-        <h2>per què?</h2>
-        <p>perquè vull aprendre a fer-ne</p>
-    </section>
+  <!-- Sobre mí -->
+  <section class="max-w-3xl mx-auto px-4 py-16 text-center">
+    <h2 class="text-2xl font-bold mb-4">Sobre mí</h2>
+    <img src="images/life_paths.JPG" alt="Arnau Medes" class="mx-auto mb-6 rounded-2xl shadow w-full max-w-md object-cover" />
+    <p class="text-gray-700 leading-relaxed">
+      Soy Arnau Medes. Vengo del mundo de la consultoría estratégica y el análisis de datos, y actualmente ayudo a empresas digitales a convertir más leads en clientes gracias a un proceso de ventas humano, estructurado y centrado en la conexión auténtica. Mi enfoque combina preparación, escucha activa y cierre sin fricción. Trabajo con integridad, disciplina y una mentalidad de alto rendimiento.
+    </p>
+  </section>
 
-    <section id="imatges">
-        <h2>imatges</h2>
-        <p>life paths</p>
-        <img src="images/life_paths.jpg" alt="imatge 2" width="300">
-        <img src="life_paths.jpg" alt="imatge 2" width="300">
-        <a href="https://amzn.to/4924MFh" target="_blank">Amazon arnaumedes</a>
-        <a href="https://amzn.to/4fQubnA" target="_blank">Amazon arnau7aumedes</a>
+  <!-- Cómo trabajo -->
+  <section class="bg-gray-50 px-4 py-16">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold mb-8 text-center">Cómo trabajo</h2>
+      <div class="grid md:grid-cols-4 gap-6 text-center">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Preparación</h3>
+          <p class="text-gray-600 text-sm">Estudio a fondo tu producto, tu buyer persona y tus scripts.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Escucha activa</h3>
+          <p class="text-gray-600 text-sm">Detecto las verdaderas necesidades y objecciones del lead.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Conversación estratégica</h3>
+          <p class="text-gray-600 text-sm">Genero un entorno de confianza y guío con claridad.</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Cierre limpio</h3>
+          <p class="text-gray-600 text-sm">El objetivo no es vender a toda costa, sino cerrar con alineación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- CTA Final -->
+  <section class="px-4 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-4">¿Tienes un proyecto y quieres escalar las ventas?</h2>
+    <p class="text-lg text-gray-700 mb-8">Hablemos. Veamos si hay match y cómo puedo ayudarte.</p>
+    <div class="flex flex-col md:flex-row gap-4 justify-center">
+      <a href="http://calendly.com/arnaumedes" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-2xl shadow hover:bg-blue-700 transition">Reserva una llamada</a>
+      <a href="https://wa.me/34674295086" target="_blank" class="border border-gray-800 text-gray-900 px-6 py-3 rounded-2xl hover:bg-gray-100 transition">WhatsApp directo</a>
+    </div>
+  </section>
 
-    <section id="contacte">
-        <h2>contacte</h2>
-        <p>podeu contactar-me a: <a href="arnaumedes@gmail.com">arnaumedes@gmail.com</a></p>
-    </section>
 </body>
 </html>
-
-
